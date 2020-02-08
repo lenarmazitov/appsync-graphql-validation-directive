@@ -1,1 +1,1 @@
-export * from './LowercaseTransformer';
+export * from './ValidatorTransformer';

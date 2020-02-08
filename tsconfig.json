@@ -11,7 +11,8 @@
             "dom"
         ],
         "declaration": true,
-        "types": ["jest"]
+        "types": ["jest"],
+        "skipLibCheck": true
     },
     "exclude": [
         "node_modules",

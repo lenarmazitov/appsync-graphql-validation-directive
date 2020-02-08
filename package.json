@@ -1,16 +1,16 @@
 {
-  "name": "graphql-lowercase-transformer",
-  "version": "1.0.2",
+  "name": "appsync-graphql-validation-directive",
+  "version": "0.0.1",
   "license": "Apache-2.0",
-  "author": "Hisham Al-Shurafa",
+  "author": "Lenar Mazitov",
   "keywords": [
-      "graphql",
-      "appsync",
-      "aws"
+    "graphql",
+    "appsync",
+    "aws"
   ],
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose false",
     "test-ci": "jest --ci -i",
     "build": "tsc",
     "clean": "rm -rf ./lib",
@@ -22,7 +22,8 @@
     "graphql-dynamodb-transformer": "^5.18.0",
     "graphql-mapping-template": "^3.25.0",
     "graphql-transformer-common": "^3.32.0",
-    "graphql-transformer-core": "^5.18.0"
+    "graphql-transformer-core": "^5.18.0",
+    "jest-cli": "^25.1.0"
   },
   "devDependencies": {
     "@types/jest": "23.1.1",
